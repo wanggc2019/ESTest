@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>elasticsearch的配置</comment>
+    <entry key="cluster.name">dic_es_test</entry>
+    <entry key="path.home">/data/elasticsearch</entry>
+    <entry key="searchguard.ssl.transport.enabled">true</entry>
+    <entry key="SSLConfigConstants.SEARCHGUARD_SSL_TRANSPORT_KEYSTORE_FILEPATH">E:\公司文件\王也\oip_config\oip-keystore.jks</entry>
+    <entry key="SSLConfigConstants.SEARCHGUARD_SSL_TRANSPORT_TRUSTSTORE_FILEPATH">E:\公司文件\王也\oip_config\truststore.jks</entry>
+    <entry key="SSLConfigConstants.SEARCHGUARD_SSL_TRANSPORT_KEYSTORE_PASSWORD">12345678</entry>
+    <entry key="SSLConfigConstants.SEARCHGUARD_SSL_TRANSPORT_TRUSTSTORE_PASSWORD">12345678</entry>
+    <entry key="searchguard.ssl.transport.enforce_hostname_verification">false</entry>
+    <entry key="searchguard.ssl.transport.resolve_hostname">false</entry>
+    <entry key="client.transport.sniff">true</entry>
+    <entry key="transport.addresses">134.64.220.81:9300</entry>
+    <entry key="es.user">CN=oip,OU=client,O=client,L=Test,C=DE</entry>
+    <entry key="es.password">oip</entry>
+    
+</properties>
